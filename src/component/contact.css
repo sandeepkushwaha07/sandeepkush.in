@@ -1,0 +1,24 @@
+.contact-page {
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-details {
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+  }
+
+  button.btn.btn-primary.submit_btn {
+    margin-top: 22px;
+}
+  
+  .contact-details p {
+    margin: 10px 0;
+  }
+  
+  .contact-details i {
+    margin-right: 10px;
+  }
+  

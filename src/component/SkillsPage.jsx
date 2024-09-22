@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './skills.css';
 
 function SkillPage() {
   return (
@@ -13,7 +13,9 @@ function SkillPage() {
             </div>
           </div>
 
-          
+       
+
+          {/* Right side - Icons */}
           <div className="col-12 col-md-6">
             <div className="row">
               {[
@@ -47,15 +49,21 @@ function SkillPage() {
             </div>
           </div>
 
-       
-          <div className="col-12 col-md-6 d-flex justify-content-center align-items-center mt-4 mt-md-0">
-            <div className="circle-diagram">
-              <div className="center-item">Software Developer</div>
-              <div className="circle-item">Java</div>
-              <div className="circle-item">Python</div>
-              <div className="circle-item">React</div>
-              <div className="circle-item">Bootstrap</div>
-              <div className="circle-item">AWS</div>
+             {/* Left side - Text */}
+             <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="skills-text">
+              <h3>My Expertise</h3>
+              <p>
+                I am proficient in a variety of modern technologies, including:
+                Agile, Spring, Spring Boot, Spring MVC, Hibernate, Jenkins, Git,
+                Docker, REST and SOAP Web Services, Spring Data, Spring Security,
+                Mockito, JUnit, AWS Web Services, SQS, SNS, Java 11, Node.js, and many more.
+              </p>
+              <p>
+                I have worked extensively with version control tools like GitHub and Bitbucket,
+                as well as various databases like MySQL, PostgreSQL, and NoSQL.
+                Additionally, I have experience with AWS services such as Media Live, IVS, and KMS.
+              </p>
             </div>
           </div>
         </div>
