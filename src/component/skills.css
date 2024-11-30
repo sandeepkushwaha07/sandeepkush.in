@@ -1,29 +1,30 @@
 .skillsPage {
-    background-color: #f4f4f9;
+ 
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
     padding: 50px 0;
   }
   
   .AnupTitle h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: var(--bs-nav-link-color) !important;;
     font-weight: bold;
     text-transform: uppercase;
   }
   
   .skills-text {
     text-align: left;
-    padding: 20px;
+    
   }
   
   .skills-text h3 {
     font-size: 1.75rem;
-    color: #007bff;
+    color: var(--bs-nav-link-color) !important;
   }
   
   .skills-text p {
     font-size: 1rem;
     line-height: 1.5;
-    color: #555;
+    color: var(--bs-nav-link-color) !important;
   }
   
   .skill-logo img {
@@ -36,7 +37,7 @@
   
   .skill-logo p {
     font-size: 0.85rem;
-    color: #333;
+    color: var(--bs-nav-link-color) !important;
     margin-top: 10px;
     font-weight: bold;
   }

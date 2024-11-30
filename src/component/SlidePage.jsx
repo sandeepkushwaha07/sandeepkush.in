@@ -1,44 +1,45 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Experience.css';
+import imgsp from '../assest/logo_bg.jpg';
 
 function Slide() {
   const testimonials = [
     {
-      name: 'Rakesh',
-      position: 'CTO, XYZ Corp',
-      feedback: 'Anup was instrumental in delivering our project on time with cutting-edge technology. His expertise in cloud-native architecture is top-notch.',
-      image: '',
+      name: 'Anup Kushwaha',
+      position: 'Sr Software Developer Quantify',
+      feedback: 'Sandeep was instrumental in delivering our project on time with cutting-edge technology.   is top-notch.',
+      image: 'https://www.workbc.ca/sites/default/files/styles/hero_image/public/NTI5NzE_yO9RrR6SnCrwhNbe-2173-NOC.jpg?itok=PhnVjzRK',
     },
     {
-      name: 'Rakesh',
-      position: 'Engineering Manager, ABC Ltd',
-      feedback: 'Working with Anup was a great experience. His leadership in guiding our team was crucial to the success of our microservices transition.',
-      image: '',
+      name: 'Rakesh Yadav',
+      position: 'Engineering Manager, ',
+      feedback: 'Working with sandeep was a great experience. His leadership in guiding our to the success of our transition.',
+      image: 'https://www.skillreactor.io/blog/wp-content/uploads/2024/02/image.jpeg',
     },
     {
-      name: 'Rakesh',
-      position: 'Project Manager, DEF Inc',
-      feedback: 'Anup’s understanding of AWS and cloud technologies is exceptional. He played a key role in optimizing our system’s performance.',
-      image: '',
+      name: 'Vishal Dhiman',
+      position: 'Project Manager, ',
+      feedback: 'Sandeep understanding of Front end and back end technologies is exceptional. He played  our system’s performance.',
+      image: 'https://www.workbc.ca/sites/default/files/styles/hero_image/public/NTI5NzE_yO9RrR6SnCrwhNbe-2173-NOC.jpg?itok=PhnVjzRK',
     },
     {
-      name: 'Rakesh',
-      position: 'Lead Engineer, GHI Solutions',
-      feedback: 'Anup’s ability to manage complex architectures and guide teams through challenges is remarkable. We are grateful for his expertise.',
-      image: '',
+      name: 'Akshay Singh',
+      position: 'Lead Engineer, Php Solutions',
+      feedback: 'Sandeep ability to manage complex architectures and guide challenges is remarkable. grateful for his expertise.',
+      image: 'https://www.skillreactor.io/blog/wp-content/uploads/2024/02/image.jpeg',
     },
     {
-      name: 'Rakesh',
-      position: 'Senior Developer, LMN Technologies',
-      feedback: 'Anup’s attention to detail and his deep understanding of technology made a big difference in our project’s success.',
-      image: '',
+      name: 'Nitish Sharma',
+      position: 'Senior Developer, React Technologies',
+      feedback: 'Sandeep attention to detail and his deep understanding of technology made a big difference project’s success.',
+      image: 'https://www.workbc.ca/sites/default/files/styles/hero_image/public/NTI5NzE_yO9RrR6SnCrwhNbe-2173-NOC.jpg?itok=PhnVjzRK',
     },
     {
-      name: 'Rakesh',
-      position: 'Software Architect, OPQ Inc',
-      feedback: 'Anup is a brilliant architect who understands both the technical and business side. His input was invaluable in our development.',
-      image: '',
+      name: 'Vikash Rajput',
+      position: 'Senior Php Developer ',
+      feedback: 'Sandeep is a brilliant architect who understands both the technical and business side. Hi in our development.',
+      image: 'https://www.skillreactor.io/blog/wp-content/uploads/2024/02/image.jpeg',
     },
   ];
 

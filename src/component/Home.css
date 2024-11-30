@@ -110,13 +110,13 @@ h1.display-4 {
 /* center logo */
 .center-logo {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
 .center-logo img {
-  max-width: 200px;
+  max-width: 320px;
 }
 
 
@@ -228,6 +228,30 @@ h1.display-4 {
   }
   
 .center-logo img {
-  max-width: 124px;
+  max-width: 170px;
 }
+}
+.lead {
+  font-size: 30px;
+  font-weight: 400;
+  /* color: #000; */
+  /* color: color: var(--bs-heading-color); */
+  color: var(--bs-heading-color);
+}
+a.brand.navbar-brand {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: oblique;
+  /* line-height: 35px; */
+  font-family: lato, sans-serif;
+}
+.social_icons_header svg {
+  font-size: 22px;
+  color: var(--bs-nav-link-color) !important;
+  pointer-events: all;
+}
+
+a.social-icon.me-3 {
+  
+  color: var(--bs-nav-link-color);
 }

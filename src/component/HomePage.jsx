@@ -5,14 +5,14 @@ import SkillPage from './SkillsPage';
 import Experience from './Experience';
 import Contact from './Contact';
 import './Home.css';
-import profilePic from '../assest/logo_bg.jpg'; 
+import profilePic from '../assest/main.png'; 
 
 function HomePage() {
   const specializations = [
-    "Software Development",
-    "Backend Development",
-    "Java",
-    "React",
+    "Front end Developer",
+    "Javascript Developer",
+    "React Developer",
+    "Python Developer",
   ];
 
   const [currentSpecialization, setCurrentSpecialization] = useState(0);
@@ -29,9 +29,9 @@ function HomePage() {
       <div className="homepage-container">
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start p-5">
-            <h1 className="display-4">Hi, I'm Anup Kushwaha</h1>
+            <h1 className="display-4">Hi, I'm Sandeep Kushwaha</h1>
             <p className="lead">
-              A Technical Architect from India. I specialize in <strong>{specializations[currentSpecialization]}</strong>.
+            He is a Passionate <strong>{specializations[currentSpecialization]}</strong>.
             </p>
           </div>
           <div className="col-md-6 text-center position-relative">
@@ -53,10 +53,16 @@ function HomePage() {
         </div>
         <div className="circle">
           <div className="icon-block">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="app icon" />
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" 
+              alt="Bootstrap Icon" 
+            />
           </div>
           <div className="icon-block">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="blockchain icon" />
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" 
+              alt="SCSS Icon" 
+            />
           </div>
           <div className="icon-block">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="ar-vr icon" />

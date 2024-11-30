@@ -51,7 +51,7 @@ function Experience() {
   return (
 
     <>
-    <section className="experiencePage">
+    {/* <section className="experiencePage">
       <div className="container mt-5">
        
         <div className="row">
@@ -77,7 +77,7 @@ function Experience() {
           </div>
         ))}
       </div>
-    </section>
+    </section> */}
     <SlidePage/>
 
     </>

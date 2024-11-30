@@ -18,13 +18,13 @@ function Header() {
   return (
     <Navbar expand="lg" className={isDarkMode ? 'bg-dark navbar-dark fixed-top' : 'bg-light navbar-light fixed-top'}>
       <Container fluid>
-        <Navbar.Brand as={Link} to="/" className="brand">Anup</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" className="brand">Sandeep</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
             <Nav.Link as={Link} to="/" className="nav-link">Home</Nav.Link>
             <Nav.Link as={Link} to="/skills" className="nav-link">Skills</Nav.Link>
-            <Nav.Link as={Link} to="/experience" className="nav-link">Experience</Nav.Link>
+            {/* <Nav.Link as={Link} to="/experience" className="nav-link">Experience</Nav.Link> */}
             <Nav.Link as={Link} to="/education" className="nav-link">Education</Nav.Link>
            
           </Nav>

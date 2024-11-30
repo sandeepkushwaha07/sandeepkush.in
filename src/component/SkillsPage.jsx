@@ -24,19 +24,16 @@ function SkillPage() {
                 { name: 'Bootstrap', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg' },
                 { name: 'JavaScript', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
                 { name: 'React', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-                { name: 'Java', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-                { name: 'Spring', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
+                // { name: 'Java', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
+                // { name: 'Spring', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
                 { name: 'Python', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
                 { name: 'Git', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
-                { name: 'PHP', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
-                { name: 'C++', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
-                { name: 'C', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg' },
-                { name: 'DotNet', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg' },
+               
                 { name: 'Node.js', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
                 { name: 'MongoDB', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
-                { name: 'Express.js', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' }
+                // { name: 'Express.js', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' }
               ].map((skill, index) => (
-                <div className="col-6 col-sm-4 col-lg-3 mb-4 text-center skill-logo" key={index}>
+                <div className="col-6 col-sm-4  mb-4 text-center skill-logo" key={index}>
                   <img
                     src={skill.url}
                     alt={skill.name}
@@ -50,20 +47,20 @@ function SkillPage() {
           </div>
 
              {/* Left side - Text */}
-             <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+             <div className="col-12 col-md-6 d-flex justify-content-center">
             <div className="skills-text">
               <h3>My Expertise</h3>
+              
               <p>
-                I am proficient in a variety of modern technologies, including:
-                Agile, Spring, Spring Boot, Spring MVC, Hibernate, Jenkins, Git,
-                Docker, REST and SOAP Web Services, Spring Data, Spring Security,
-                Mockito, JUnit, AWS Web Services, SQS, SNS, Java 11, Node.js, and many more.
+              I, Sandeep Kushwaha, am a skilled software developer specializing in front-end technologies. My expertise lies in HTML, CSS, Bootstrap, JavaScript, and React.js, enabling me to craft responsive, user-friendly, and visually appealing web interfaces. These technical skills, combined with a strong sense of design, ensure that my work aligns seamlessly with user expectations and modern web standards.
               </p>
               <p>
-                I have worked extensively with version control tools like GitHub and Bitbucket,
-                as well as various databases like MySQL, PostgreSQL, and NoSQL.
-                Additionally, I have experience with AWS services such as Media Live, IVS, and KMS.
+              Beyond front-end development, I have experience in Python, which enhances my versatility and equips me to contribute to full-stack projects. I excel at bridging the gap between designers and back-end developers, ensuring that project components integrate smoothly and efficiently.
               </p>
+              {/* <p>My professional approach is rooted in a keen eye for detail, a strong commitment to delivering an exceptional user experience, and a passion for learning. I actively seek out opportunities to adopt and master new technologies, keeping my skill set current in a rapidly evolving field.</p>
+              <p>Collaboration is at the heart of my work ethic. Whether working independently or as part of a team, I focus on clear communication, effective problem-solving, and delivering high-quality solutions. With these strengths, I aim to contribute to projects that make a meaningful impact, combining technical innovation with practical functionality.
+
+</p> */}
             </div>
           </div>
         </div>

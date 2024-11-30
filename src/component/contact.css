@@ -14,11 +14,15 @@
     margin-top: 22px;
 }
   
-  .contact-details p {
-    margin: 10px 0;
-  }
+.contact-details p {
+  margin: 20px 15px;
+}
   
   .contact-details i {
     margin-right: 10px;
   }
-  
+  a.social-icon {
+    color: var(--bs-nav-link-color);
+    font-size: 21px;
+    margin: 0 8px;
+}
